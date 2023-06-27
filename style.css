@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header a{
+    margin: 10px;
+}
+
+section{
+    background-color: grey;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 610px;
+}   
