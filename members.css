@@ -27,29 +27,57 @@ header a{
     margin: 30px;
 }
 
-h1{
-    color: black;  
+.pheader{
+    color: white;
+}
+
+.titleip{
+    color: black;
+}
+
+.hr2{
+    background-color: black;
+    margin-top: 60px;
 }
 
 .members{
     align-items: center;
     text-align: center;
     font-size: 50px;
-}
-
-.members1{
-    align-items: center;
-    text-align: center;
-    font-size: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 footer{
     background-color: black;
-    margin-top: 290px;
+    margin-top: 120px;
     padding: 30px;
 }
 
 .copy{
     text-align: center;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1200px){
+    header{
+        flex-direction: column;
+        height: 200px;
+        align-items: center;
+    }
+
+    .pheader{
+        font-size: 10px;
+    }
+
+    .titleip{
+        font-size: 30px;
+    }
+
+    .members{
+        font-size: 15px;
+    }
+
+    footer{
+        margin-top: 330px;
+    }
 }

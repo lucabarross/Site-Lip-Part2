@@ -84,3 +84,30 @@ footer{
 .copy{
     text-align: center;
 }
+
+/* Reponsive */
+
+@media only screen and (max-width: 1200px){
+    header{
+        flex-direction: column;
+        height: 200px;
+        align-items: center;
+    }
+
+    .pheader{
+        font-size: 10px;
+    }
+
+    .scratchs{
+        max-width: 90%;
+    }
+
+    .videos{
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .tinkercad{
+        max-width: 90%;
+    }
+}
