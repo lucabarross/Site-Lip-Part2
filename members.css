@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header a{
+    margin: 10px;
+}
+
+.lips{
+    color: black;
+    text-align: center;
+    margin: 30px;
+}
+
+h1{
+    color: black;  
+}
+
+.members{
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.members1{
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: black;
+    margin-top: 290px;
+    padding: 30px;
+}
+
+.copy{
+    text-align: center;
+}

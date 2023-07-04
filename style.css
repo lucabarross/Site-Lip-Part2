@@ -21,13 +21,66 @@ header a{
     margin: 10px;
 }
 
-section{
-    background-color: grey;
+.lips{
+    color: black;
+    text-align: center;
+    margin: 30px;
+}
+
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.scratchs{
+    display: block;
+    background-color: slategray;
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.scratchs p{
+    color: black;
+    margin: 10px;
+}
+
+h2{
+    margin: 10px;
+    color: black;
+}
+
+.videos{
+    margin: 50px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tinkercad{
+    display: block;
+    background-color: slategray;
+    max-width: 30%;
+    border-radius: 10px;
+}
+
+.tinkercad p{
+    color: black;
+    margin: 10px;
+}
+
+hr{
+    margin: 10px;
+    color: black;
 }
 
 footer{
     background-color: black;
-    color: white;
+}
+
+.copy{
     text-align: center;
-    margin-top: 610px;
-}   
+}
